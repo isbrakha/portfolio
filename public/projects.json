@@ -1,0 +1,14 @@
+[
+    {
+      "name": "MasterMind",
+      "live": "https://isbrakha.github.io/1st-project-mastermind/",
+      "git": "https://github.com/isbrakha/1st-project-mastermind",
+      "image": "https://i.imgur.com/yU0PsFN.png"
+    },
+    {
+      "name": "DoggyDate",
+      "live": "https://doggydating-c428b5defcd3.herokuapp.com/",
+      "git": "https://github.com/Brank8/DoggyDate-App",
+      "image": "https://github.com/Brank8/DoggyDate-App/raw/main/public/screenshots/owner-page.png"
+    }
+  ]
