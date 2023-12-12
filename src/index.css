@@ -13,6 +13,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -65,4 +75,53 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.sm-logos {
+  height: 7vmin;
+  padding: 2vmin;
+}
+
+body {
+  background-image: url('https://i.imgur.com/4gnLaCr.png'); /* Replace with the path to your image */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+
+
+body::before {
+  content: ''; /* Necessary for pseudo-elements */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  z-index: 0; /* Places the overlay behind the content */
+}
+
+.App {
+  color: #FFF; /* White text */
+  text-shadow: 0 0 10px rgb(255, 0, 0), 0 0 20px rgb(255, 0, 0);
+  position: relative; /* To ensure it's above the overlay */
+  z-index: 1;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: .2rem solid black;
+  padding: .5rem;
+  width: 90%;
+  margin: auto;
+}
+
+.nav-text {
+  color: rgb(255, 225, 0);
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2em;
+  border-radius: 10px;
+  margin-bottom: 1em;
 }
