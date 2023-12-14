@@ -9,23 +9,25 @@ function Projects() {
     const response = await fetch("./projects.json");
     const data = await response.json();
 
-		// set the projects state to the data
     setProjects(data);
 
   };
 
-  useEffect(() => getProjectsData(), []);
+  useEffect(() => {getProjectsData()}, []);
 
   const loaded = () => {
     return projects.map((project, idx) => (
       <div key={idx}>
         <h1>{project.name}</h1>
-        <img src={project.image} />
+        <div id="project-wrapper">
+          <img id="app-images" src={project.image} />
+          <p>{project.desc}</p>
+        </div>
         <a href={project.git}>
-          <button>Github</button>
+          <button className="project-btns">Github Repo</button>
         </a>
         <a href={project.live}>
-          <button>live site</button>
+          <button className="project-btns">Live Site</button>
         </a>
       </div>
     ));

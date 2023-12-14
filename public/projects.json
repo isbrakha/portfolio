@@ -3,12 +3,14 @@
       "name": "MasterMind",
       "live": "https://isbrakha.github.io/1st-project-mastermind/",
       "git": "https://github.com/isbrakha/1st-project-mastermind",
-      "image": "https://i.imgur.com/yU0PsFN.png"
+      "image": "https://i.imgur.com/yU0PsFN.png",
+      "desc": "A streamlined web application for dog owners to manage profiles, seek breeding partners, or set playdates. Built with Node.js, Express, and MongoDB, it offers secure Google OAuth sign-in and Cloudinary-powered image uploads. The app includes a smart matching algorithm for user interaction, illustrating my proficiency with complex backend processes and user-focused solutions."
     },
     {
       "name": "DoggyDate",
       "live": "https://doggydating-c428b5defcd3.herokuapp.com/",
       "git": "https://github.com/Brank8/DoggyDate-App",
-      "image": "https://github.com/Brank8/DoggyDate-App/raw/main/public/screenshots/owner-page.png"
+      "image": "https://i.imgur.com/oVtrzan.png",
+      "desc": "A web-based adaptation of the classic game Mastermind, built with efficient JavaScript. The app features a clean, intuitive UI and an advanced algorithm for the critical black and white feedback pegs. This algorithm challenges players to decipher the computer-generated code, adding depth and engagement to the gameplay. The implementation of this feature highlights practical skills in game logic and user-focused design, offering a compelling blend of classic puzzle strategy and modern digital interface."
     }
   ]

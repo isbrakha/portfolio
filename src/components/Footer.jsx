@@ -1,6 +1,6 @@
 function Footer() {
     return <footer>
-    <h4>Check me out</h4>
+    <h4>My Links:</h4>
     <a href="https://github.com/isbrakha/">
       <img className="sm-logos"src="https://i.imgur.com/X6oTxPR.png"/>
     </a>
