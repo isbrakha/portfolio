@@ -146,7 +146,7 @@ body::before {
 @media only screen and (max-width: 1040px) {
   #project-wrapper{
     flex-direction: column;
-    height: 25rem;
+    height: max-content;
     padding-top: 1rem;
   }
 }
