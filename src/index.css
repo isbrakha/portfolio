@@ -20,16 +20,12 @@
   text-align: center;
 }
 
-
-
-
 a {
   font-weight: 500;
   text-decoration: inherit;
 }
-a:hover {
-  color: #535bf2;
-}
+
+
 
 body {
   margin: 0;
@@ -66,8 +62,8 @@ body::before {
 }
 
 .App {
-  color: #FFF; /* White text */
-  position: relative; /* To ensure it's above the overlay */
+  color: #FFF;
+  position: relative;
   z-index: 1;
 }
 
@@ -78,15 +74,13 @@ body::before {
   padding: .5rem;
   width: 100%;
   margin-top: 0;
-
 }
 
 .nav-text {
   color: rgb(255, 225, 0);
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.3);
   padding: 2em;
   border-radius: 10px;
-  margin-bottom: 1em;
 }
 
 .nav-text:hover{
@@ -110,6 +104,7 @@ body::before {
   max-width: 50rem;
   color: rgb(255, 255, 255) ;
   text-shadow: 0 0 10px rgb(0, 162, 255), 0 0 20px rgb(255, 0, 0);
+  margin: auto;
 }
 
 #app-images {
@@ -157,23 +152,46 @@ body::before {
   background-color: purple;
   border-color: fuchsia;
   font-family: 'Rubik', sans-serif;
+  font-weight: bolder;
+  font-size: large;
+  padding: .5rem;
 }
+
+.project-btns:hover{
+  background-color: fuchsia;
+  border-color: purple;
+  cursor: pointer;
+  color: yellow;
+}
+
 
 .resume-container{
   box-shadow: 0 0 10px rgb(200, 0, 255), 0 0 20px rgb(255, 0, 0) ;
   padding: .5rem;
   border-radius: 20px;
+  margin-bottom: 5rem;
+}
+
+.resume-container:hover{
+  background-color: rgb(200, 0, 255);
+  cursor: pointer;
+  color: yellow;
+}
+
+.resume-container a{
+  color: inherit;
+  text-decoration: none;
 }
 
 #email a{
   color: rgb(255, 0, 200);
+  margin-left: 1rem;
 }
 
 #email {
   background-color: rgba(0, 0, 0, 0.7);
- 
   border-radius: 10px;
-  padding: 1rem;
+  padding: 1rem
 }
 
 #email a:hover{
@@ -181,4 +199,26 @@ body::before {
   box-shadow: 0 0 10px rgb(200, 0, 255), 0 0 20px rgb(255, 0, 0);
   border-radius: 20px;
   padding: .5rem;
+}
+
+
+.title{
+  font-size: 5rem;
+  margin-top: 5rem;
+  color: rgb(255, 225, 0);
+}
+
+
+
+.projects-dad {
+  border:red;
+}
+
+.nav-header{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  /* box-shadow: 0px 2px 5px rgba(0,0,0,0.1); */
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  /* height: 5rem; */
 }

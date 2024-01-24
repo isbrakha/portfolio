@@ -4,9 +4,7 @@ import Footer from "./components/Footer";
 
 import { Route, Routes } from "react-router-dom";
 
-import Contact from "./pages/Contact";
-import About from "./pages/About";
-import Projects from "./pages/Projects";
+import Portfolio from "./pages/Portfolio.jsx"
 
 function App() {
 
@@ -19,9 +17,7 @@ function App() {
 
       <Header />
       <Routes>
-        <Route exact path="/" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route exact path="/" element={<Portfolio />} />
       </Routes>
       <Footer />
     </div>

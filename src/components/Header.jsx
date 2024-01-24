@@ -1,23 +1,25 @@
-import { Link } from "react-router-dom";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 function Header() {
 
 
   return (
-    <header>
+    <header className="nav-header">
       <nav className="nav">
-        <Link to="/">
+      <AnchorLink href="#about">
           <div className="nav-text">ABOUT</div>
-        </Link>
-        <Link to="/projects">
+        </AnchorLink>  
+        <AnchorLink href="#projects">
           <div className="nav-text">PROJECTS</div>
-        </Link>
-        <Link to="/contact">
+        </AnchorLink>
+        <AnchorLink href="#contact">  
           <div className="nav-text">CONTACT ME</div>
-        </Link>
+        </AnchorLink>  
       </nav>
     </header>
   );
 }
 
 export default Header;
+
+
