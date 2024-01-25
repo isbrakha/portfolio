@@ -72,7 +72,7 @@ function Portfolio() {
         <h1 id="contact" className="title">Contact Me</h1>
         <h1 id="email">E-mail: <a href="mailto:isaacbrakha14@gmail.com">isaacbrakha14@gmail.com</a></h1>
         <h1 className="resume-container">
-        <a href="../public/isaac-brakha">Download My Resume</a>
+        <a href="/isaac-brakha-cv.pdf">Download My Resume</a>
         </h1>
       </>
     )
