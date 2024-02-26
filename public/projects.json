@@ -3,7 +3,7 @@
       "name": "Good Game Gaming",
       "live": "https://goodgamegaming-dfd0a2474432.herokuapp.com/",
       "git": "https://github.com/isbrakha/goodgamegaming",
-      "image": "https://i.imgur.com/LKZOC8Z.pnghttps://i.imgur.com/DhxPAQf.png",
+      "image": "https://i.imgur.com/DhxPAQf.png",
       "desc": "A comprehensive gaming platform that utilizes Django for backend robustness and integrates the RAWG API to fetch an extensive collection of video game data, including reviews, ratings, and walkthroughs. It offers users a personalized experience by allowing them to contribute content, express preferences for game genres, and receive game recommendations. The site features a responsive design, ensuring seamless usability across various devices. This project exemplifies the seamless integration of external API data with user-generated content, wrapped in a user-friendly interface."
     },
     {
