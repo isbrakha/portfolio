@@ -1,10 +1,10 @@
 [
     {
-      "name": "MasterMind",
-      "live": "https://isbrakha.github.io/1st-project-mastermind/",
-      "git": "https://github.com/isbrakha/1st-project-mastermind",
-      "image": "https://i.imgur.com/yU0PsFN.png",
-      "desc": "A web-based adaptation of the classic game Mastermind, built with efficient JavaScript. The app features a clean, intuitive UI and an advanced algorithm for the critical black and white feedback pegs. This algorithm challenges players to decipher the computer-generated code, adding depth and engagement to the gameplay. The implementation of this feature highlights practical skills in game logic and user-focused design, offering a compelling blend of classic puzzle strategy and modern digital interface."
+      "name": "Good Game Gaming",
+      "live": "https://goodgamegaming-dfd0a2474432.herokuapp.com/",
+      "git": "https://github.com/isbrakha/goodgamegaming",
+      "image": "https://i.imgur.com/LKZOC8Z.pnghttps://i.imgur.com/DhxPAQf.png",
+      "desc": "A comprehensive gaming platform that utilizes Django for backend robustness and integrates the RAWG API to fetch an extensive collection of video game data, including reviews, ratings, and walkthroughs. It offers users a personalized experience by allowing them to contribute content, express preferences for game genres, and receive game recommendations. The site features a responsive design, ensuring seamless usability across various devices. This project exemplifies the seamless integration of external API data with user-generated content, wrapped in a user-friendly interface."
     },
     {
       "name": "DoggyDate",
@@ -19,6 +19,13 @@
       "git": "https://github.com/isbrakha/trivial-trivia",
       "image": "https://i.imgur.com/LKZOC8Z.png",
       "desc": "An interactive trivia application, leveraging React for a dynamic user experience, allows players to test their knowledge across various categories and difficulty levels. The app offers a sleek, user-friendly interface and a range of customizable settings, providing a personalized trivia challenge. Key features include the selection of game types and real-time feedback, enhancing engagement and learning opportunities. This project showcases a harmonious integration of front-end reactiveness with robust gameplay logic."
+    },
+    {
+      "name": "MasterMind",
+      "live": "https://isbrakha.github.io/1st-project-mastermind/",
+      "git": "https://github.com/isbrakha/1st-project-mastermind",
+      "image": "https://i.imgur.com/yU0PsFN.png",
+      "desc": "A web-based adaptation of the classic game Mastermind, built with efficient JavaScript. The app features a clean, intuitive UI and an advanced algorithm for the critical black and white feedback pegs. This algorithm challenges players to decipher the computer-generated code, adding depth and engagement to the gameplay. The implementation of this feature highlights practical skills in game logic and user-focused design, offering a compelling blend of classic puzzle strategy and modern digital interface."
     }
   ]
 
