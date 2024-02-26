@@ -5,7 +5,6 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -34,6 +33,9 @@ body {
   min-width: 320px;
   min-height: 100vh;
   font-family: 'Rubik', sans-serif;
+  background-size: auto;
+  background-position: center;
+  position: relative;
 }
 
 
@@ -44,25 +46,6 @@ body {
 
 .sm-logos:hover{
   transform: scale(1.5)
-}
-
-body {
-  background-size: auto;
-  background-position: center;
-  position: relative;
-}
-
-
-
-body::before {
-  content: ''; 
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 0; 
 }
 
 .App {
@@ -97,7 +80,7 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: fill; 
+  object-fit: cover; 
   z-index: -1;     
 }
 
@@ -222,4 +205,13 @@ body::before {
   position: sticky;
   top: 0;
   z-index: 1000;
+}
+
+@media (max-width: 700px) {
+  #videoBackground {
+    display: none;
+  }
+  .body {
+    background-color: fuchsia;
+  }
 }

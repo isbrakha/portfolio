@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      <video autoPlay loop muted id="videoBackground">
+      <video autoPlay loop muted playsInline id="videoBackground">
         <source src="/bgg.mp4" type="video/mp4"/>
           This is supposed to be a video.
       </video>
